@@ -62,7 +62,7 @@ boringcompany2018
 
 In the regex mode, you can generate additional strings with the provided regex. These generated strings will be appended as a prefix or suffix to the words. For this mode, Rhodiola takes a regex value as an argument. There is also an optional argument: ”regex_place” which defines the string placement (Can be:"prefix" or "suffix". Default value is "suffix"). 
 
-Example command: `python rhodiola.py --username elonmusk --regex "(root|admin)\d{2}"`
+Example command: `python rhodiola.py --username elonmusk --regex "(root|admin)\d{2}`
 
 Example output:
 
@@ -84,7 +84,7 @@ boringcompany2018admin99
 
 In the mask mode, user can provide hashcat style mask values. Only \l (lower-alpha) and \u (upper-alpha) charsets are available. 
 
-Example command: `python rhodiola.py --username elonmusk --mask "?u?l?u?u?l"`
+Example command: `python rhodiola.py --username elonmusk --mask "?u?l?u?u?l`
 
 Example output:
 
