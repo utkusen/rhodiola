@@ -109,7 +109,7 @@ BoRIngcompany2018
 
 If you don't have any Twitter API keys or you want to bring your own data, you can do it as well. Rhodiola provides you two different options. You can provide a text file which contains arbitrary text data, or you can provide a text file which contains different URLS. Rhodiola parses the texts from those URLs.
 
-Example command: `python rhodiola.py --filename mydata.txt"` 
+Example command: `python rhodiola.py --filename mydata.txt` 
 
 mydata.txt contains:
 
@@ -117,7 +117,7 @@ mydata.txt contains:
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 ```
 
-Example command: `python rhodiola.py --urlfile blogs.txt"` 
+Example command: `python rhodiola.py --urlfile blogs.txt` 
 
 blogs.txt contains:
 
